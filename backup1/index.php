@@ -10,9 +10,16 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div class="col-md-12 warna-krim" style="">
-      <h1 class="text-center">gula gendis</h1>
-      <p class="text-center">Minumannya orang Indonesia</p>
+    <div class="row">
+      <div class="col col-xs-12 warna-krim">
+        <img src="img/gendis-rempah-2.png" class="img-fluid" alt="gendis-rempah">
+      </div>
+      <div class="col col-xs-12 warna-krim">
+        <p>
+          <img src="img/bambu.png" alt="gendis-rempah"><br>
+          Dari Kualitas Gula Terbaik
+        </p>
+      </div>
     </div>
   </div>
 </body>
