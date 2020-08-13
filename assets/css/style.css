@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   overflow: hidden;
 }
 
@@ -494,6 +494,10 @@ section {
   padding-bottom: 40px;
 }
 
+.features .container {
+  padding: 60px 50px;
+}
+
 .features .nav-tabs {
   border: 0;
 }
@@ -546,6 +550,21 @@ section {
 
 .features .tab-content {
   text-align: right;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .content ul li {
+  padding-bottom: 10px;
+}
+
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #28a745;
 }
 
 @-webkit-keyframes slide-down {
@@ -645,6 +664,11 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio .container {
+  background-color: #f7f8f9;
+  padding: 60px 50px;
 }
 
 .portfolio #portfolio-flters {
@@ -822,6 +846,10 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+}
+
+.testimonials .container {
+  padding: 60px 50px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
